@@ -4,7 +4,6 @@ require 'pp'
 
 def directors_totals(nds)
 
-  #pp directors_database
   director_final = {}
   director_index = 0
   while director_index < directors_database.length do
