@@ -9,14 +9,15 @@ def directors_totals(nds)
   director_index = 0
   while director_index < directors_database.length do
     director = [directors_database[director_index][:name]]
-    director_gross = 0
     pp director
     film = 0
+    director_gross = 0
     while film < directors_database[director_index][:movies].length do
-      pp directors_database[director_index][:movies][film][:worldwide_gross]
+      director_gross += directors_database[director_index][:movies][film][:worldwide_gross]
       film += 1
     end
-
+    director.push(director_gross)
+    pp director
     director_index += 1
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
