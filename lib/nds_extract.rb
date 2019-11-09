@@ -16,7 +16,7 @@ def directors_totals(nds)
     end
     director.push(director_gross)
     director_final[Director] = director_gross
-    pp director
+    pp director_final
     director_index += 1
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
