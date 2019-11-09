@@ -7,8 +7,7 @@ def directors_totals(nds)
   director_final = {}
   director_index = 0
   while director_index < directors_database.length do
-    director = directors_database[director_index][:name]
-    director_final[director] = {}
+    director = [directors_database[director_index][:name]]
     film = 0
     director_gross = 0
     while film < directors_database[director_index][:movies].length do
