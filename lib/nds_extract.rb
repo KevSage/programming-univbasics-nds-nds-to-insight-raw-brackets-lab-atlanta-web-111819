@@ -13,7 +13,7 @@ def directors_totals(nds)
     pp director
     film = 0
     while film < directors_database[director_index][:movies].length do
-      pp directors_database[director_index][:movies][film]
+      pp directors_database[director_index][:movies][film][:worldwide_gross]
       film += 1
     end
 
