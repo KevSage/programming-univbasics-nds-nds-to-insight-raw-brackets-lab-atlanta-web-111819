@@ -15,6 +15,7 @@ def directors_totals(nds)
       film += 1
     end
     director.push(director_gross)
+    director_final[Director] = director_gross
     pp director
     director_index += 1
   end
