@@ -14,7 +14,7 @@ def directors_totals(nds)
       director_gross += directors_database[director_index][:movies][film][:worldwide_gross]
       film += 1
     end
-    director.push(director_gross)
+    #director.push(director_gross)
     director_final[director] = director_gross
     pp director_final
     director_index += 1
