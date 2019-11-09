@@ -18,7 +18,6 @@ def directors_totals(nds)
     director_final[director] = director_gross
     director_index += 1
   end
-  director_final
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
@@ -36,4 +35,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
+  director_final
+
 end
