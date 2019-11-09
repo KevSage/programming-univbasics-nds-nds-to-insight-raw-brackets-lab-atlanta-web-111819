@@ -19,7 +19,7 @@ def directors_totals(nds)
     #pp director_final
     director_index += 1
   end
-  pp director_final
+  puts director_final
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
