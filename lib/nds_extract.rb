@@ -14,6 +14,7 @@ def directors_totals(nds)
     film = 0
     while film < directors_database[director_index][:movies].length do
       pp directors_database[director_index][:movies][film]
+      film += 1
     end
 
     director_index += 1
