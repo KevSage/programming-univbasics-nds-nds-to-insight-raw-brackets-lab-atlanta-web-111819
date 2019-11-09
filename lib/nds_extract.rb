@@ -16,7 +16,8 @@ def directors_totals(nds)
       film += 1
     end
     director.push(director_gross)
-    pp director
+    director_final << director
+    pp director_final
     director_index += 1
   end
   # Remember, it's always OK to pretty print what you get *in* to make sure
