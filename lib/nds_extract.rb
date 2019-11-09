@@ -37,3 +37,5 @@ def directors_totals(nds)
   nil
   director_final
 end
+
+pp directors_database
